@@ -1,0 +1,23 @@
+Preciso de um sistema em C# (.NET 8) para simular o controle de pedidos de uma lanchonete. Por favor, crie o código completo, incluindo a classe principal com um método Main para demonstrar o uso. O sistema deve seguir estas regras:
+
+Classe Produto: Deve ter as propriedades Nome (string), Preco (double) e Categoria (string).
+
+Classe Pedido:
+
+Deve conter uma lista de objetos do tipo Produto.
+
+Deve ter um método para adicionar um Produto à lista.
+
+Deve ter um método que calcule o valor total do pedido.
+
+Deve aplicar um desconto de 10% se o valor total for superior a R$100,00.
+
+Fluxo do Programa:
+
+No método Main, crie alguns objetos Produto de exemplo (ex: hambúrguer, batata frita, refrigerante).
+
+Crie um objeto Pedido e adicione os produtos.
+
+Exiba um resumo claro no console, mostrando a lista de produtos, o valor total original e, se aplicável, o valor com o desconto.
+
+Lembre-se de adicionar comentários explicando as partes principais do código.
